@@ -1,0 +1,62 @@
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+}
+.menu{
+    background-color: burlywood;
+    width: 80%;
+    max-width: 500px;
+    min-width: 200px;
+    margin: auto;
+    /*Espaço entre os conteudos: padding*/
+    padding: 2rem;
+}
+h1{
+    margin-bottom: -5px;
+}
+h1,p,h2{
+    text-align: center;
+}
+h1,h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.item p{
+    display: inline-block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.cafe,.sobremesa{
+    width: 50%;
+    text-align: left;
+}
+.precos{
+    width: 50%;
+    text-align: right;
+}
+hr{
+    background-color: brown;
+    border-color: brown;
+    border-radius: 5px;
+    height: 2px;
+}
+.barra-de-baixo{
+    margin-top: 25px;
+}
+img{
+    margin: auto;
+    display: block ;
+    margin-top: -20px;
+}
+/*Footer*/
+/* ":visited" muda o elemento caso o usuario ja tenha visitado o site em questão*/
+a:visited{
+    color: grey;
+}
+/* ":hover"  muda uma propriedade quando o mause passa por cima do elemento*/ 
+a:hover{
+    color: brown;
+}
+/* ":active" muda a propriedade quando o usuario clica no elemento em questão*/
+a:active{
+    color: blue;
+}
