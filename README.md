@@ -1,2 +1,2 @@
 # Menu-de-cafeteria
-um meno de uma cafetria ficticia
+um muno de uma cafetria ensinado pelo Free code camp
